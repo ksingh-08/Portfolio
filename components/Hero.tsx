@@ -26,10 +26,10 @@ const Hero = () => {
             </h2>
             <TextGenerateEffect 
              className='text-center text-[40px] md:text-5xl lg:text-6xl'
-             words="Transforming concepts into Seamless User Experiences"></TextGenerateEffect>
+             words="Creating Dynamic Web Solutions with Creativity and Tech"></TextGenerateEffect>
 
-            <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                    Hi , I&apos;m Karan, a Next.js Developer based in India.
+            <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-1xl'>
+                    Hi , I&apos;m Karan, a Mern Stack Developer based in India.
             </p>
 
             <a href="#about">
