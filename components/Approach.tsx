@@ -20,7 +20,7 @@ const Approach = () => {
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Development & progress update" icon={<AceternityIcon order="Phase 2"/>}
+        <Card title="Development & Progress Update" icon={<AceternityIcon order="Phase 2"/>}
         description="Throughout the development phase, I focus on implementing robust solutions and continuously monitor progress. I prioritize agile methodologies, ensuring flexibility and responsiveness to evolving requirements. Regular updates and transparent communication keep stakeholders informed and aligned, driving efficiency and maintaining momentum towards project milestones.">
           <CanvasRevealEffect
             animationSpeed={3}
