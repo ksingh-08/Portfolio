@@ -105,13 +105,7 @@ export const projects = [
 ];
 
 export const testimonials = [
-  {
-    quote:
-      "As a member of Vivacity, Karan showcased remarkable talent as a content creator. His ability to craft engaging narratives and produce compelling content was instrumental in bringing our cultural fest to life. His creative approach and dedication to excellence were invaluable to our team, leaving a lasting impact on our audience.",
-    name: "Vuuren Mohanty",
-    title: "Ex-Creative Head of Vivacity LNMIIT, Jaipur",
-    img:"/montysir.jpg",
-  },
+  
   {
     quote:
       "As the event head of TEDx LNMIIT, I had the pleasure of witnessing Karan's exceptional talent as a content creator. His ability to conceptualize and produce engaging narratives played a pivotal role in shaping our event's success. His dedication to storytelling and his creative vision enriched our content, captivating our audience and leaving a lasting impression. Karan consistently demonstrated professionalism and innovation, making him a valuable asset to our team.",
@@ -125,6 +119,13 @@ export const testimonials = [
     name: "Aditya Singh",
     title: "Ex-Content Lead at Devops Insiders",
     img:"/singhsir.jpg",
+  },
+  {
+    quote:
+      "As a member of Vivacity, Karan showcased remarkable talent as a content creator. His ability to craft engaging narratives and produce compelling content was instrumental in bringing our cultural fest to life. His creative approach and dedication to excellence were invaluable to our team, leaving a lasting impact on our audience.",
+    name: "Vuuren Mohanty",
+    title: "Ex-Creative Head of Vivacity LNMIIT, Jaipur",
+    img:"/montysir.jpg",
   },
   // {
   //   quote:
