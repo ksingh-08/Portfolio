@@ -29,7 +29,7 @@ const Hero = () => {
              words="Creating Dynamic Web Solutions with Creativity and Technology"></TextGenerateEffect>
 
             <p className='text-center md:tracking-wider  mb-4 text-sm md:text-lg lg:text-1xl'>
-                   Hi, I&apos;m Karan, a Full-Stack developer and Post-Production Specialist.
+                   Hi, I&apos;m Karan, a Full-Stack Developer and Post-Production Specialist.
             </p>
 
             <a href="#projects">

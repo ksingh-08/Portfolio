@@ -8,12 +8,12 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Skilled in creating dynamic and responsive web applications that enhance user experiences",
+    title: "Skilled in creating dynamic and responsive web applications that enhance user experiences.",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] ",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/portfolio.jpg",
     spareImg: "",
   },
   {
@@ -75,7 +75,7 @@ export const projects = [
     title: "Mern Chat App",
     des: "Engage in real-time messaging with secure user authentication in my MERN stack chat application, designed for intuitive and seamless communication.",
     img: "/mernchat.png",
-    iconLists: ["/mongodb-icon.svg", "/ts.svg", "/re.svg","nodejs-icon.svg"],
+    iconLists: ["/mongodb-icon.svg", "/tail.svg", "/re.svg","nodejs-icon.svg"],
     link: "https://github.com/ksingh-08/MernChatApp.git",
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     title: "Paytm Like Wallet",
     des: "Explore my Paytm-inspired project, offering user-friendly registration, secure authentication, and efficient transaction management, all built on a robust MERN stack platform.",
     img: "/paytm.png",
-     iconLists: ["/mongodb-icon.svg", "/ts.svg", "/re.svg","nodejs-icon.svg"],
+     iconLists: ["/mongodb-icon.svg", "/tail.svg", "/re.svg","nodejs-icon.svg"],
     link: "https://github.com/ksingh-08/Paytm.git",
   },
   // {
@@ -109,7 +109,7 @@ export const testimonials = [
     quote:
       "As a member of Vivacity, Karan showcased remarkable talent as a content creator. His ability to craft engaging narratives and produce compelling content was instrumental in bringing our cultural fest to life. His creative approach and dedication to excellence were invaluable to our team, leaving a lasting impact on our audience.",
     name: "Vuuren Mohanty",
-    title: "Ex-Creative Head of Vivacity",
+    title: "Ex-Creative Head of Vivacity LNMIIT, Jaipur",
     img:"/montysir.jpg",
   },
   {
@@ -181,28 +181,28 @@ export const workExperience = [
     title: "Aspiring Full Stack Devloper",
     desc: "As an aspiring full-stack developer, I am passionate about building dynamic web applications,that seamlessly integrate front-end and back-end functionalities. I strive to create intuitive user experiences while expanding my skills in technologies like the MERN stack, Next.js, PostgreSQL, and Prisma, aiming to deliver robust solutions that meet modern digital demands.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/dev1.svg",
   },
   {
     id: 2,
-    title: "Creative Head: Vivacity,Lnmiit",
+    title: "Creative Head: Vivacity, LNMIIT",
     desc: "As Creative Head for Vivacity, the annual cultural fest of LNMIIT Jaipur,  I lead innovative initiatives, design captivating experiences, and collaborate with teams to elevate cultural celebrations through creativity and imagination.",
     className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp3.svg",
   },
   {
     id: 3,
     title: "Core Member: TedxLNMIIT",
     desc: "As a content creator, I craft compelling narratives, produce engaging videos, and bring ideas to life through visual storytelling, aiming to inspire and captivate audiences.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp1.svg",
   },
   {
     id: 4,
     title: "Freelance Experience",
     desc: "My freelance work across organizations like DevOps Insiders has allowed me to excel as a content creator. Collaborating on diverse projects, I've crafted engaging narratives, produced compelling content, and tailored creative strategies to meet client objectives. These experiences have enriched my skills in storytelling and content development, contributing to impactful outcomes and client satisfaction.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/work.svg",
   },
 ];
 

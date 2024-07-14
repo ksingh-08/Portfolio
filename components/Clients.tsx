@@ -11,7 +11,7 @@ const Clients = () => {
 
 
         </h1>
-        <div className='flex flex-col items-center max-lg:mt-10'>
+        <div className='flex flex-col items-center max-lg:mt-10 p-10'>
            
                         <InfiniteMovingCards 
                         items={testimonials}
