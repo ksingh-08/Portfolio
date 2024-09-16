@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -8,12 +10,12 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Skilled in creating dynamic and responsive web applications that enhance user experiences.",
+    title: "VIVACITY'23 Official Aftermovie",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] ",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/portfolio.jpg",
+    img: "/vivacity.jpg",
     spareImg: "",
   },
   {
@@ -28,8 +30,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "That Go Viral!",
+    description: "Video Edits",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +40,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Accomplished post-production specialist with a passion for crafting compelling visual narratives.",
+    title:
+      "Accomplished post-production specialist with a passion for crafting compelling visual narratives.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,13 +52,13 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Exploring opportunities for freelance web development projects to expand my portfolio.",
-    description: "Currently Engaged In",
+    title: "",
+    description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: "",
+    spareImg: "",
   },
   {
     id: 6,
@@ -72,60 +75,59 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Mern Chat App",
-    des: "Engage in real-time messaging with secure user authentication in my MERN stack chat application, designed for intuitive and seamless communication.",
-    img: "/mernchat.png",
-    iconLists: ["/mongodb-icon.svg", "/tail.svg", "/re.svg","nodejs-icon.svg"],
-    link: "https://github.com/ksingh-08/MernChatApp.git",
+    title: "Imagination-LNMIIT Club Intro Video",
+    des: "Immerse yourself in a high-energy experience with sleek motion graphics and cutting-edge edits that set the scene.",
+    img: "/imagi.jpg",
+    iconLists: ["premiere.png", "/after64.png"],
+    link: "https://www.instagram.com/reel/Cwh3wBHIeaW/?utm_source=ig_web_copy_link",
   },
   {
     id: 2,
-    title: "Paytm Like Wallet",
-    des: "Explore my Paytm-inspired project, offering user-friendly registration, secure authentication, and efficient transaction management, all built on a robust MERN stack platform.",
-    img: "/paytm.png",
-     iconLists: ["/mongodb-icon.svg", "/tail.svg", "/re.svg","nodejs-icon.svg"],
-    link: "https://github.com/ksingh-08/Paytm.git",
+    title: "A Edit For Tharun Speaks",
+    des: "An energetic edit featuring sharp visuals and captivating motion graphics to elevate Tharun Speaks, presenting his message with precision and power.",
+    img: "/tharun.jpg",
+    iconLists: ["premiere.png", "/after64.png"],
+    link: "",
   },
-  // {
-  //   id: 3,
-  //   title: "AI Image SaaS - Canva Application",
-  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  //   img: "/p3.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-  //   link: "https://github.com/adrianhajdin/ai_saas_app",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "https://github.com/adrianhajdin/iphone",
-  // },
+  {
+    id: 3,
+    title: "Devops Insiders Interview",
+    des: "A polished edit with engaging visuals and smooth motion graphics, highlighting DevOps Insiders and delivering insights with precision and energy.",
+    img: "/devops.jpg",
+    iconLists: ["premiere.png", "/after64.png"],
+    link: "https://github.com/adrianhajdin/ai_saas_app",
+  },
+  {
+    id: 4,
+    title: "TEDxLNMIIT Theme Reveal",
+    des: "A powerful theme reveal using motion graphics and striking visuals to build excitement and unveil the TEDx theme.",
+    img: "/tedx.jpg",
+    iconLists: ["premiere.png", "/after64.png"],
+    link: "https://www.instagram.com/p/C0IedYIi_QL/",
+  },
 ];
 
 export const testimonials = [
-  
   {
     quote:
       "As the event head of TEDx LNMIIT, I had the pleasure of witnessing Karan's exceptional talent as a content creator. His ability to conceptualize and produce engaging narratives played a pivotal role in shaping our event's success. His dedication to storytelling and his creative vision enriched our content, captivating our audience and leaving a lasting impression. Karan consistently demonstrated professionalism and innovation, making him a valuable asset to our team.",
     name: "Keshav Agarwal",
     title: "Event Head - TEDxLNMIIT",
-    img:"/keshavsir.jpg",
+    img: "/keshavsir.jpg",
   },
   {
     quote:
       "As the content lead at DevOps Insiders, I had the privilege of collaborating with Karan, who consistently demonstrated outstanding creativity and expertise as a content creator. His ability to craft compelling narratives and deliver engaging content was instrumental in enhancing our online presence and engaging our audience effectively. Karan's dedication to quality and his innovative approach to content creation significantly contributed to our success in delivering valuable insights to our community.",
     name: "Aditya Singh",
     title: "Ex-Content Lead at Devops Insiders",
-    img:"/singhsir.jpg",
+    img: "/singhsir.jpg",
   },
   {
     quote:
       "As a member of Vivacity, Karan showcased remarkable talent as a content creator. His ability to craft engaging narratives and produce compelling content was instrumental in bringing our cultural fest to life. His creative approach and dedication to excellence were invaluable to our team, leaving a lasting impact on our audience.",
     name: "Vuuren Mohanty",
     title: "Ex-Creative Head of Vivacity LNMIIT, Jaipur",
-    img:"/montysir.jpg",
+    img: "/montysir.jpg",
   },
   // {
   //   quote:
@@ -211,18 +213,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url:"https://github.com/ksingh-08"
+    url: "https://github.com/ksingh-08",
   },
   {
     id: 2,
     img: "/twit.svg",
-    url:"https://x.com/k_singh_08"
-    
+    url: "https://x.com/k_singh_08",
   },
   {
     id: 3,
     img: "/link.svg",
-    url:"https://www.linkedin.com/in/karan-singh-774ba1227/"
-    
+    url: "https://www.linkedin.com/in/karan-singh-774ba1227/",
   },
 ];
