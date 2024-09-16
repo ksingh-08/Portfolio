@@ -8,11 +8,11 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
         <h1 className="heading">
-            My <span className="text-purple">{' '}Approach</span>
+            Our <span className="text-purple">{' '}Services</span>
         </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
-        <Card title="Planning & Strategy" icon={<AceternityIcon order="Phase 1"/>}
-        description="In this initial phase, I meticulously plan and strategize the project's direction. I conduct thorough research, outline goals, and define strategies to ensure clarity and alignment with project objectives. By laying a strong foundation during this phase, I set the groundwork for successful execution and achievement of desired outcomes."
+        <Card title="Social Media Marketing" icon={<AceternityIcon order="Marketing"/>}
+        description={`We craft and execute dynamic social media strategies that enhance your brand’s presence and engage your audience. Our approach includes content planning, campaign management, and performance analysis to drive meaningful interactions and growth. \n Content Creation & Scheduling \n Audience Engagement & Community Building \n Analytics & Performance Tracking`}
         >
 
           <CanvasRevealEffect
@@ -20,8 +20,12 @@ const Approach = () => {
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Development & Progress Update" icon={<AceternityIcon order="Phase 2"/>}
-        description="Throughout the development phase, I focus on implementing robust solutions and continuously monitor progress. I prioritize agile methodologies, ensuring flexibility and responsiveness to evolving requirements. Regular updates and transparent communication keep stakeholders informed and aligned, driving efficiency and maintaining momentum towards project milestones.">
+        <Card title="Video Editing" icon={<AceternityIcon order="Editing"/>}
+        description="Our video editing services bring your stories to life with stunning visuals and compelling narratives. From concept to final cut, we ensure that your videos are polished, professional, and tailored to captivate your target audience.
+
+Video Production & Post-Production
+Motion Graphics & Animation
+Color Grading & Sound Design">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -34,8 +38,12 @@ const Approach = () => {
           {/* Radial gradient for the cute fade */}
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
-        <Card title="Development & Launch" icon={<AceternityIcon order="Phase 3" />}
-        description="In this crucial phase, I bring the project to fruition through meticulous development and rigorous testing. With a focus on quality assurance and user experience, I ensure that all components function seamlessly. Upon completion, I oversee the successful launch, orchestrating deployment and providing ongoing support to ensure a smooth transition and optimal performance.">
+        <Card title="Web Development" icon={<AceternityIcon order="Development" />}
+        description="We create cutting-edge websites that are both visually appealing and highly functional. Our web development services focus on delivering seamless user experiences, optimizing performance, and ensuring that your online presence stands out.
+
+Custom Web Design & Development
+Responsive & Mobile-Friendly Designs
+CMS Integration & E-Commerce Solutions">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"

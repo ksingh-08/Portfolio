@@ -1,13 +1,14 @@
 "use client"
-
+import ReactPlayer from 'react-player';
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import  {GlobeDemo}  from "./GridGlobe";
 import Lottie from "react-lottie";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 import animationData from '@/data/confetti.json';
 import MagicButton from "./MagicButton";
+import Link from "next/link";
 
 export const BentoGrid = ({
   className,
@@ -50,6 +51,11 @@ export const BentoGridItem = ({
   titleClassName?:string;
   spareImg?:string;
 }) => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
     const [copied,setCopied]=useState(false);
 
     const handleCopy = () => {
@@ -69,6 +75,7 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
+
 
         <div className={`${id === 6 && 'flex w-full justify-center '} h-full`}>
             <div className="w-full h-full absolute">
@@ -104,15 +111,48 @@ export const BentoGridItem = ({
                 <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
                     {description}
                 </div>
-                 <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+                 <div className="font-sans font-bold text-lg lg:text-3xl max-w-full z-10">
           {title}
         </div>
+       {id === 1 && (
+  <a href="https://www.youtube.com/watch?v=E64TKUqgi_4" target="_blank" rel="noopener noreferrer" className="font-normal pt-4">
+    <div>Step Inside, Click Here!</div>
+  </a>
+  
+)}
+<div className="video-container">
+ {isClient && id === 5 && (
+  <div>
+        <div>
+
+          <div className='mb-6'>
+            <div className="font-sans font-bold text-3xl text-center pt-0 mt-0 mb-2">
+            <a href="https://www.behance.net/gallery/203812557/Vivacity24-Fest-Branding">Behance Project Link</a>
+            </div>
+            <p className='font-sans font-light text-lg text-center'>Showcasing our year-long journey of dynamic motion graphics  <br />and engaging reels for Vivacity.</p>
+          </div>
+          <ReactPlayer
+            className="rounded-sm"
+            style={{ borderRadius: '12px' }}
+            url="/draft1.mp4" // Path to your video file
+            width="100%"     // Adjust width as needed
+            height="auto"    // Adjust height as needed
+            playing          // Automatically starts playing the video
+            loop             // Makes the video loop continuously
+            controls={false} // Hides the controls
+          />
+        </div>
         
+        </div>
+        
+      )}
+      </div>
+
         {id===2 && <GlobeDemo />}
         {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
                 <div className="flex flex-col gap-3 lg:gap-8">
-                    {['React.js','Next.js','TypeScript'].map((item)=>(
+                    {['Motion G.','Cinematic Edits','Motion Graphics'].map((item)=>(
                         <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                             {item}
                         </span>
@@ -121,7 +161,7 @@ export const BentoGridItem = ({
                 </div>
                 <div className="flex flex-col gap-3 lg:gap-8">
                       <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
-                    {['Express.js','AWS','MongoDB'].map((item)=>(
+                    {['Creative Cuts','Striking Visuals',''].map((item)=>(
                         <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                             {item}
                         </span>
